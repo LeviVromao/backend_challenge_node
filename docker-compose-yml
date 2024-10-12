@@ -1,0 +1,21 @@
+version: '3'
+services:
+  app:
+    build: .
+    command: "npm run start"
+    working_dir: "/node/app"
+    ports:
+      - 80:80
+    environment:
+      - PORT=80
+      - RECAPTCHA_KEY="6LcSTF4qAAAAANQeVD6OFz86ezaD36rftJ13ogQx"
+      - RECAPTCHA_URL=https://www.google.com/recaptcha/api/siteverify
+      - MAIL_HOST=smtp.gmail.com
+      - MAIL_PORT="587"
+      - MAIL_SECURE=true
+      - MAIL_AUTH_NAME="Equipe do projeto"
+      - MAIL_AUTH_USER="booksharecontacts@gmail.com"
+      - MAIL_AUTH_PASS="duin mlgy fjke svlt"
+      - TEXT_MAIL_TITLE="Teste EMAIL"
+      - TEXT_MAIL_BODY="contact from {name}, using mail: {email}, about: {comment}"
+      - TEXT_MAIL_HTML="contact from {name}, using mail: {email}, about: {comment}"
