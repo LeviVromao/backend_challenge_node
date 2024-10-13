@@ -11,6 +11,10 @@ Esta API permite o envio de formulários de contato com validação de ReCaptcha
 - Envio de email para o usuário e a empresa.
 - Retorno de erros detalhados no formato RFC7807.
 
+## First Steps
+- Clone o repositorio
+- Use o npm install no terminal
+
 ## Endpoints
 
 ### 1. Enviar Formulário de Contato
