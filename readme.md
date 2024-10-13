@@ -12,8 +12,8 @@ Esta API permite o envio de formulários de contato com validação de ReCaptcha
 - Retorno de erros detalhados no formato RFC7807.
 
 ## First Steps
-- Clone o repositorio
-- Use o npm install no terminal
+- Clone o repositorio ```https://github.com/LeviVromao/backend_challenge_node.git```
+- Use o ```npm install``` no terminal
 
 ## Endpoints
 
